@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 24rem;
+    height: 16rem;
+}
+.container{
+    background-color: #61a8b1;
+    
+    padding: 3rem;
+}
+header{
+    text-align: center;
+    color: #010101;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 91px;
+    padding: 2rem;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:53px
+}
+.flex{
+   
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.card{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 1rem;
+    height: 29rem;
+    width: 26rem;
+    
+}
+h2{
+    color: #76453B;
+    text-transform: capitalize;
+}
+button{
+    background-color: transparent;
+    border: none;
+    color: #F8FAE5;
+    
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+button:hover{
+    color: #76453B;
+}
